@@ -1,0 +1,241 @@
+body {
+    background-color: #FCF8EC;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+* {
+    color: #456268;
+}
+
+/* HEADER */
+
+.header {
+    margin: 2rem 0;
+}
+
+.title, .subtitle {
+    font-family: ivypresto-display, serif;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 32px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero--txt {
+    font-family: ivypresto-display, serif;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.hero--txt p {
+    font-size: 30px;
+    width: 34rem;
+    font-weight: 600;
+    text-align: right;
+    text-shadow: 0px 3px 9px #00000030;
+}
+
+/* HOME CONTENT */
+
+.schedule-wrapper {
+    background-image: url("assets/Rectangle-1.png");
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+    min-height: 800px;
+}
+
+.company-wrapper {
+    background-image: url("assets/Path-1.png");
+    background-repeat: no-repeat;
+    background-position: 110% 40px;
+}
+
+
+/* CARDS */
+.card {
+    box-shadow: 0px 6px 12px #00000029;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 450px;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+.card .card-header {
+    border: 0;
+    background: 0;
+}
+
+.card .card-body {
+    border-top: 1px solid #00000029;
+}
+
+.card .card-footer {
+    border: 0;
+    background: 0;
+    text-align: right;
+}
+
+.card .card-img-top {
+    width: 10rem;
+    margin: 1rem auto;
+}
+
+.schedule-wrapper .card {
+    max-width: 95%;
+    min-height: 600px;
+    height: initial;
+}
+
+.schedule-wrapper .card .subtitle {
+    font-style: normal;
+}
+
+.schedule-wrapper .card .card-body {
+    padding-top: 0;
+    border-top: 0;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #fff;
+}
+
+.footer--text {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.footer .footer--images img {
+    margin: 1rem auto;
+    display: flex;
+    max-height: 3rem;
+}
+
+/* INPUTS */
+.btn-primary {
+    background-color: #00549B;
+    box-shadow: 0px 3px 12px #00000064;
+    border-radius: 9px;
+    border-color: transparent;
+}
+
+@media (min-width: 1800px){
+    .container {
+        max-width: 1650px;
+    }
+}
+
+
+@media (min-width: 1600px){
+    .container {
+        max-width: 1500px;
+    }
+}
+
+@media (min-width: 1400px){
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 1200px){
+    .container {
+        max-width: 1100px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .card {
+        height: 490px;
+    }
+
+    .schedule-wrapper {
+        background-position: -300px 0;
+    }
+
+    .company-wrapper {
+        background-position: 120% 40px;
+    }
+}
+
+@media (max-width: 1100px){
+    .schedule-wrapper {
+        background-position: -500px 0;
+    }
+
+    .company-wrapper {
+        background-position: 130% 40px;
+    }
+}
+
+@media (max-width: 992px){
+    .card {
+        height: initial !important;
+        min-height: initial !important;
+        width: 95%;
+    }
+
+    .company-wrapper, .schedule-wrapper {
+        background: none;
+    }
+}
+
+@media (max-width: 830px){
+    .hero--txt p {
+        font-size: 25px;
+        width: 29rem;
+    }
+}
+
+@media (max-width: 690px){
+    .hero {
+        height: 15rem;
+        background: #d0e8f2;
+    }
+    .hero img {
+        display: none;
+    }
+
+    .hero--txt {
+        top: 3rem;
+        left: 2rem;
+    }
+
+    .hero--txt p {
+        text-align: left;
+        width: initial;
+        font-size: 32px;
+    }
+}
+
