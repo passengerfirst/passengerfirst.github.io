@@ -36,6 +36,8 @@ ul {
 
 .hero {
     position: relative;
+    background: url("assets/hero-img.png");
+    height: 20rem;
 }
 
 .hero img {
@@ -45,8 +47,24 @@ ul {
 .hero--txt {
     font-family: ivypresto-display, serif;
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 10px;
+}
+
+.hero--txt span {
+    background: #d0e7f1;
+    padding: 5px;
+}
+
+.hero .btn-hero {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 20px;
+    color: white;
+    background: #456268;
+    padding: 1rem 3rem;
+    border-radius: 10px;
 }
 
 .hero--txt p {
@@ -78,9 +96,10 @@ ul {
     box-shadow: 0px 6px 12px #00000029;
     border-radius: 20px;
     margin: 0 auto;
-    height: 450px;
+    height: 530px;
     max-width: 100%;
     margin: 2rem auto;
+    font-size: 18px;
 }
 
 .card .card-header {
@@ -99,7 +118,7 @@ ul {
 }
 
 .card .card-img-top {
-    width: 10rem;
+    width: 12rem;
     margin: 1rem auto;
 }
 
@@ -134,6 +153,7 @@ ul {
     margin: 1rem auto;
     display: flex;
     max-height: 3rem;
+    max-width: 100%;
 }
 
 /* INPUTS */
@@ -177,7 +197,7 @@ ul {
     }
 
     .card {
-        height: 490px;
+        height: 600px;
     }
 
     .schedule-wrapper {
@@ -224,6 +244,10 @@ ul {
         background: #d0e8f2;
     }
     .hero img {
+        display: none;
+    }
+
+    .hero .btn-hero {
         display: none;
     }
 
