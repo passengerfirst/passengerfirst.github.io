@@ -37,6 +37,7 @@ ul {
 .hero {
     position: relative;
     background: url("assets/hero-img.png");
+    background-size: cover;
     height: 20rem;
 }
 
