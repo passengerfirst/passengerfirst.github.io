@@ -86,6 +86,9 @@ body {
     background-position: 110% 40px;
 }
 
+.center-margin {
+    margin: 0 auto;
+}
 
 /* CARDS */
 .card {
