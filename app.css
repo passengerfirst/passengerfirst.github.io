@@ -71,6 +71,11 @@ body {
     text-shadow: 0px 3px 9px #00000030;
 }
 
+/* NAVBAR */
+.navbar {
+    padding: 0;
+}
+
 /* HOME CONTENT */
 
 .schedule-wrapper {
@@ -135,6 +140,13 @@ body {
     padding-top: 0;
     border-top: 0;
 }
+
+/* VIDEOS */
+.video-wrapper .card {
+    padding: 2rem;
+    height: 600px;
+}
+
 
 /* FOOTER */
 .footer {
@@ -219,10 +231,14 @@ body {
 }
 
 @media (max-width: 992px){
-    .card {
+    .company-wrapper .card {
         height: initial !important;
         min-height: initial !important;
         width: 95%;
+    }
+
+    .video-wrapper .card {
+        height: 500px;
     }
 
     .company-wrapper, .schedule-wrapper {
